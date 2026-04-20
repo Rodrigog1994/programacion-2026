@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil de Usuario</title>
+</head>
+<body>
+
+    <h1>Formulario de datos personales</h1>
+
+    <form action="/enviar-datos" method="post">
+        
+        
+        <fieldset>
+            <legend>Información Personal</legend>
+            
+            <label for="estudiante">Ocupación:</label>
+            <input type="text" readonly value="ESTUDIANTE" name="estudiante" id="estudiante">
+            <br><br>
+
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingrese nombre completo">
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Ingrese email">
+            <br><br>
+
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" id="edad" placeholder="Ingrese edad">
+            <br><br>
+
+            <label for="nacionalidad">Nacionalidad:</label>
+            <select name="nacionalidad" id="nacionalidad">
+                <option value="Argentino">Argentino</option>
+                <option value="Brasileño">Brasileño</option>
+                <option value="Boliviano" selected>Boliviano</option>
+                <option value="Chileno">Chileno</option>
+            </select>
+            <br><br>
+
+            <label for="condicion">Condición Laboral:</label>
+            <select name="condicion" id="condicion">
+                <option value="desempleado">Desempleado</option>
+                <option value="en búsqueda laboral">En búsqueda laboral</option>
+                <option value="trabajo part time" selected>Trabajo part time</option>
+                <option value="trabajo full time">Trabajo full time</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        
+        <fieldset>
+            <legend>Gustos Personales</legend>
+            
+            <label for="gustos">Gustos musicales:</label>
+            <input type="text" name="gustos" id="gustos" placeholder="Ingrese cantante o grupo">
+            <br><br>
+
+            <label for="comidas">Comidas preferidas:</label>
+            <select name="comidas" id="comidas">
+                <option value="hamburguesa">Hamburguesa</option>
+                <option value="pizza">Pizza</option>
+                <option value="pancho" selected>Pancho</option>
+                <option value="asado">Asado</option>
+            </select>
+        </fieldset>
+
+        <br>
+
+        
+        <input type="checkbox" id="recordar-datos" name="recordar_datos">
+        <label for="recordar-datos">Recordar los datos del usuario</label>
+        
+        <br><br>
+        
+        <button type="submit">Enviar formulario</button>
+
+    </form>
+
+</body>
+</html>

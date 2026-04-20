@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>- Crear formulario de inicio de sesión</title>
+</head>
+<body>
+    <h1>Iniciar sesión</h1>
+<ol>
+  <li>Ingrese usuario</li>
+  <li>Ingresar contraseña</li>
+  <li>Confirmar</li>
+</ol>
+<form action="/enviar-datos"  method="post" >
+<label for="usuario">Usuario</label>
+<input type="text" id="usuario" name="usuario"  placeholder="Ingrese nombre de usuario" >
+
+<label for="contraseña">Contraseña</label>
+<input type="password" id="contraseña" name="contraseña" placeholder="Ingrese clave">
+
+<label for="recordar">Recordar datos</label>
+<input type="checkbox" id="recordar" name="recordar" >
+<input type="submit" value="enviar">
+</form>
+    
+</body>
+</html>

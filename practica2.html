@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    table,
+    td,
+    th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+    }
+    table {
+        width: 100%;
+    }
+
+    </style>
+</head>
+<body>
+    <div>
+    <table>
+        <tr>
+            <th>nombre</th>
+            <th>apellido</th>
+            <th>edad</th>
+            <th>ciudad</th>
+        </tr>
+
+        <tr>
+        <td>rodrigo</td>
+        <td>bravo</td>
+        <td>32</td>
+        <td>roldán</td>    
+        </tr>
+        
+        <tr>
+        <td>victoria</td>
+        <td>juarez</td>
+        <td>23</td>
+        <td>roldán</td>   
+        </tr>
+     </table>
+    </div> 
+    <br>
+    <br>
+    <div>
+    <table>
+        <thead>
+            <tr>
+                <th>nombre</th>
+                <th>sitio web preferido</th>
+                <th>equipo</th>
+                <th>profesión</th>
+                <th>ciudad</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>roberto</td>
+                <td><a href="www.promiedos.com.ar">Promiedos</a></td>
+                <td>Central</td>
+                <td>desarrollador</td>
+                <td>funes</td>   
+            </tr>
+            <tr>
+                <td>cristofer</td>
+                <td><a href="www.adidas.com.ar">Adidas</a></td>
+                <td>Newells</td>
+                <td>arquitecto</td>
+                <td>funes</td>   
+            </tr>
+            <tr>
+                <td>rodrigo</td>
+                <td><a href="www.youtube.com">Youtube</a></td>
+                <td rowspan="2">River</td>
+                <td>desarrollador</td>
+                <td>roldán</td>   
+            </tr>
+            <tr>
+                <td>ayrton</td>
+                <td><a href="www.honda.com.ar">Honda</a></td>
+                <td>herrero</td>
+                <td>funes</td>   
+            </tr>
+        </tbody>
+        <tfoot>
+        <tr>
+            <td colspan="4">Ciudad de mayor población</td>
+            <td>Funes</td>
+        </tr>  
+        </tfoot>
+     </table>
+    </div> 
+</body>
+</html>
