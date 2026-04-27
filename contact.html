@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<header>
+    <h1>Hola mundo!</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Nemo expedita nesciunt, quidem ullam accusamus totam eaque sint voluptatem! Qui suscipit quasi, 
+        aliquid repudiandae cum nobis laudantium aut delectus ducimus aliquam?</p>
+</header>
+<div class="container">
+    
+     <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="multimedia.html">Multimedia</a></li>
+            <li><a href="contact.html">Contacto</a></li>
+        </ul>
+     </nav>
+    
+    <main>
+      <form action="/enviar datos" method="post">
+        <fieldset>
+                <legend>Formulario</legend>
+        <table>
+            
+                
+                <tr>
+                    <td><strong><label for="nombre">Nombre</label></strong></td>
+                    <td><input type="text" id="nombre" name="nombre" required></td>
+                </tr>            
+                <tr>
+                    <td><label for="email">Email</label></td>
+                    <td><input type="email" name="email" id="email"></td>
+                </tr>
+                <tr>
+                    <td><strong><label for="edad">Edad</label></strong></td>
+                    <td><input type="number" name="edad" id="edad" ></td>
+                </tr>
+                <tr>
+                    <td><strong><label for="color">Color preferido</label></strong></td>
+                    <td><input type="text" name="color" id="color" ></td>
+                </tr>
+                <tr>
+                    <td><strong><label for="comentario">Comentario</label></strong></td>
+                    <td><textarea name="comentario" id="comentario" minlength="10"></textarea></td>
+                </tr>
+            
+           
+        </table>
+        <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
+    </main>
+    
+     <div class="right">
+     <h2>Info</h2>
+     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+     <p>Este es un texto necesario que se pidio colocar en el contenedor derecho</p>
+    </div> 
+</div>
+
+ <footer>
+    <h2>Ubicación</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3350.015078214443!2d-60.9092643!3d-32.8977696!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b6499abd513111%3A0x24fd58ccd935f5fb!2sInstituto%20Superior%20N%C2%B0%204038%20Juan%20Pablo%20II!5e0!3m2!1ses!2sar!4v1775145651561!5m2!1ses!2sar" width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <p>Y este es un texto necesario que se pidio colocar en el footer</p>
+    <p>copyright labcomII.com</p>
+ </footer>
+
+</body>
+</html>
